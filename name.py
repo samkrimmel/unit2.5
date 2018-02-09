@@ -9,6 +9,8 @@ color = input('Waht is your favourite colour my lad?')
 black = Color(0x000000,1)
 
 
-text = TextAsset(name,fill=, style='bold 60pt Times')
+text = TextAsset(name,fill=black, style='bold 60pt Times')
 
-Sprite(text,(450,250))
+Sprite(text,(300,200))
+
+App().run()
