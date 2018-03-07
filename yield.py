@@ -9,8 +9,8 @@ yellow = Color(0xffe500,1)
 
 yellowOutline = LineStyle(1,yellow)
 
-triangle = PolygonAsset([(0,0),(300,0),(150,200)], yellowOutline, yellow)
+triangle = PolygonAsset([(0,0),(300,0),(150,250)], yellowOutline, yellow)
 
-Sprite(triangle,(200,200))
+Sprite(triangle,(200,150))
 
 App().run()
