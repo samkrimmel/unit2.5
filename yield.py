@@ -11,6 +11,6 @@ yellowOutline = LineStyle(1,yellow)
 
 triangle = PolygonAsset([(50,50),(100,50),(75,100)], yellowOutline, yellow)
 
-Sprite(triangle,(500,500))
+Sprite(triangle,(200,200))
 
 App().run()
