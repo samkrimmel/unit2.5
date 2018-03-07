@@ -13,9 +13,7 @@ triangle = PolygonAsset([(0,0),(300,0),(150,250)], yellowOutline, yellow)
 triangle2 = PolygonAsset([(10,10),(290,10),(150,240)], blackOutline, yellow)
 text = TextAsset('yield',fill=black, style='bold 60pt Times')
 
-Sprite(text,(300,200))
-
 Sprite(triangle,(200,150))
 Sprite(triangle2,(207,152))
-
+Sprite(text,(300,200))
 App().run()
